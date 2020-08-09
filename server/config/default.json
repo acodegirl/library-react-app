@@ -1,0 +1,4 @@
+{
+  "jwtPrivateKey": "library_test",
+  "dbConfig": "mongodb://localhost/library-app"
+}

@@ -1,0 +1,29 @@
+.home-wrapper {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  justify-content: space-around;
+  .home {
+    color: $text-color;
+    font-weight: 500;
+    border-radius: 5px;
+    margin: auto;
+    background-color: #eff5f5;
+    border: 1px solid $text_color;
+    min-height: 100vh;
+    background-image: url('../assets/books.jpg');
+    width: 100%;
+    background-size: cover;
+    p {
+      text-align: center;
+      padding: 10px;
+    }
+    ul {
+      padding: 50px;
+      li {
+        text-align: left;
+        padding: 10px;
+      }
+    }
+  }
+}
