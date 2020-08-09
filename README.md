@@ -1,11 +1,11 @@
-# My Library app Solution
+# Library App
 
 ## Overview
 
-Library is built using the following,
+Library App is built using the following,
 
 - Frontend : Single page ReactJS
-- Backend : RESTful APIs exposed through Node server
+- Backend : RESTful APIs exposed using Node server
 - Used scss for styling and jest/mocha for unit tests
 
 ## Prerequisite
@@ -49,8 +49,6 @@ To run this project, Node(v11.15.0), npm(v6.14.5), MongoDB(v3.6.3) needs to be i
 
 ## Miscellaneous
 
-- Application deployment to be handled through Helm Charts
-
 ### Improvements
 
 - Backend
@@ -60,6 +58,8 @@ To run this project, Node(v11.15.0), npm(v6.14.5), MongoDB(v3.6.3) needs to be i
   - RBAC to be added
   - Enhance book borrowing request access.
   - Bootstrap & MaterialUI libraries can be used for better UI design.
+- Deployment
+  - Application deployment to be handled through Helm Charts for kubernetes.
 
 ### Development environment
 
@@ -70,4 +70,4 @@ To run this project, Node(v11.15.0), npm(v6.14.5), MongoDB(v3.6.3) needs to be i
 
 ## Author
 
-- Anitha Manickam (ani.manickam@gmail.com)
+- Anitha Manickam
