@@ -9,12 +9,12 @@ function Login() {
     password: ''
   });
   const [error, setError] = useState('');
-  //const isAuthenticated = useSelector(state => state.auth.isAuthenticated);
   const dispatch = useDispatch();
   const history = useHistory();
 
+  // Remove access token
   useEffect(() => {
-    localStorage.removeItem('access-token');
+    localStorage.removeItem('access_token');
   }, []);
 
   const handleChange = event => {

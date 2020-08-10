@@ -17,9 +17,9 @@ export default function Users() {
   // Dynamic table population - Users data
   const renderUserList = () => {
     return userData.map((user, index) => {
-      const { id, name, email, mobile } = user;
+      const { name, email, mobile } = user;
       return (
-        <tr key={id}>
+        <tr key={index + 1}>
           <td>{index + 1}</td>
           <td>{name}</td>
           <td>{email}</td>

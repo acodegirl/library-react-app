@@ -7,6 +7,7 @@ Library App is built using the following,
 - Frontend : Single page ReactJS
 - Backend : RESTful APIs exposed using Node server
 - Used scss for styling and jest/mocha for unit tests
+- Dockerfile is provided for both server and client.
 
 ## Prerequisite
 
@@ -53,13 +54,18 @@ To run this project, Node(v11.15.0), npm(v6.14.5), MongoDB(v3.6.3) needs to be i
 
 - Backend
   - JWT token expiry to be handled better.
-  - RBAC to be supported
+  - RBAC to be supported.
+  - SaaS MongoDB with authentication.
 - Frontend
-  - RBAC to be added
-  - Enhance book borrowing request access.
+  - RBAC to be added.
+  - Users table access will be limited only to admin user.
+  - Edit & Delete of User & Book table.
+  - Borrow & Reserve book feature.
   - Bootstrap & MaterialUI libraries can be used for better UI design.
-- Deployment
-  - Application deployment to be handled through Helm Charts for kubernetes.
+  - Error handling.
+- CI/CD
+  - CI: GitHub Actions to be explored.
+  - CD: Application deployment to be handled through Helm Charts for kubernetes.
 
 ### Development environment
 

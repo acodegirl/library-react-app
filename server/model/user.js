@@ -45,7 +45,6 @@ const User = mongoose.model('User', userSchema);
 
 //Validate user record input fields
 function validateUser(user) {
-  console.log('Inside validate user');
   const schema = Joi.object({
     name: Joi.string()
       .min(5)

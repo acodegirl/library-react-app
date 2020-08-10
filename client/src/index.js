@@ -4,7 +4,6 @@ import ReactDOM from 'react-dom';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 import './stylesheets/index.scss';
-import '@quasar/extras/ionicons-v4/ionicons-v4.css';
 
 ReactDOM.render(
   <React.StrictMode>

@@ -7,8 +7,6 @@ import {
 } from 'react-router-dom';
 import { Provider } from 'react-redux';
 import store from './redux/store';
-
-//import './stylesheets/App.scss';
 import Navigation from './components/Navigation';
 import PageRenderer from './components/PageRenderer';
 import UserForm from './components/UserForm';

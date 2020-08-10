@@ -23,10 +23,14 @@ export default function Navigation({ user }) {
         },
         {
           title: 'Logout',
-          path: '/login'
+          path: '/logout'
         }
       ]
     : [
+        {
+          title: 'Home',
+          path: '/home'
+        },
         {
           title: 'Sign up',
           path: '/sign-up'

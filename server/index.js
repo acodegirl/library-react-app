@@ -21,7 +21,6 @@ mongoose.set('useCreateIndex', true);
 mongoose.set('useUnifiedTopology', true);
 
 mongoose
-  //.connect('mongodb://localhost/library-app')
   .connect(config.get('dbConfig'))
   .then(() => console.log('Connected to MongoDB....'))
   .catch(() => console.log('Could not connect to MongoDB...'));

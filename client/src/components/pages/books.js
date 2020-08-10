@@ -23,9 +23,9 @@ export default function Books() {
   // Dynamic table population - Books data
   const renderBookList = () => {
     return bookData.map((book, index) => {
-      const { id, name, author, genre } = book;
+      const { name, author, genre } = book;
       return (
-        <tr key={id}>
+        <tr key={index + 1}>
           <td>{index + 1}</td>
           <td>{name}</td>
           <td>{author}</td>
